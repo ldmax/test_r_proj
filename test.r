@@ -9,3 +9,6 @@ multiply <- function(a, b) {
 minus <- function(a, b) {
   return(a - b)
 }
+
+
+print("This is test.r")
