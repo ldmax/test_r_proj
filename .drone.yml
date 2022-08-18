@@ -4,6 +4,6 @@ name: default
 
 steps:
   - name: r_test
-    image: R
+    image: r_base
     commands:
       - Rscript test.r>run_test.log
