@@ -4,7 +4,7 @@ name: default
 
 steps:
   - name: r_test
-    image: r
+    image: r-base:latest
     commands:
       - pwd
       - Rscript ./test.r
