@@ -8,3 +8,4 @@ steps:
     commands:
       - pwd
       - Rscript ./test.r
+      - Rscript ./test_cases.r>./testthat.log
