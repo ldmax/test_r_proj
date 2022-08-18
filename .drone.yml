@@ -1,0 +1,10 @@
+---
+kind: pipeline
+type: docker
+name: default
+
+steps:
+  - name: r_test
+    image: R
+    commands:
+      - Rscript test.r>run_test.log
