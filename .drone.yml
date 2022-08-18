@@ -8,4 +8,5 @@ steps:
     commands:
       - pwd
       - Rscript ./test.r
+      - Rscript -e "install.packages('testthat', repo='https://packagemanager.rstudio.com/cran/2022-08-01')"
       - Rscript ./test_cases.r

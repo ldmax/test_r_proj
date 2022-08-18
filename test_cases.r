@@ -1,5 +1,4 @@
 #' test cases to test code in test.r
-install.packages("testthat")
 library(testthat)
 source("./test.r")
 
