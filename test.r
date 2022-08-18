@@ -11,4 +11,4 @@ minus <- function(a, b) {
 }
 
 
-print("This is test.r, testing it")
+print("This is test.r")
