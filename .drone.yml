@@ -11,6 +11,5 @@ steps:
       #- Rscript -e "install.packages('testthat', repo='https://packagemanager.rstudio.com/cran/2022-08-01')"
       #- Rscript ./test_cases.r
       - Rscript -e ".libPaths()"
-      - Rscript -e "install.packages('xml2', repo='https://packagemanager.rstudio.com/cran/2022-08-16')"
       - Rscript -e "install.packages('lintr', repo='https://packagemanager.rstudio.com/cran/2022-08-16')"
       - Rscript -e "library(lintr); lint('test_linter.r')"
