@@ -10,6 +10,4 @@ minus <- function(a, b) {
   return(a - b)
 }
 
-
 print("This is test.r")
-print(.packages(all.available = TRUE))
