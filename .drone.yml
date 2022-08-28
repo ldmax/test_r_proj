@@ -10,6 +10,7 @@ steps:
       #- Rscript ./test.r
       #- Rscript -e "install.packages('testthat', repo='https://packagemanager.rstudio.com/cran/2022-08-01')"
       #- Rscript ./test_cases.r
+      - sudo apt install libxml2-dev
       - Rscript -e ".libPaths()"
       - Rscript -e "install.packages('lintr', repo='https://packagemanager.rstudio.com/cran/2022-08-24')"
       - Rscript -e "library(lintr); lint('test_linter.r')"
