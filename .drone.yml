@@ -26,3 +26,9 @@ trigger:
         #- test
   branch:
     - master
+
+# way of having multiple pipelines for the same repo
+#---
+#kind: pipeline
+#name: goodbye
+#...
