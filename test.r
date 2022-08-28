@@ -12,4 +12,4 @@ minus <- function(a, b) {
 
 
 print("This is test.r")
-print(paste0("Available packages: ", .packages(all.available = TRUE)))
+print(.packages(all.available = TRUE))
