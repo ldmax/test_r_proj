@@ -15,3 +15,10 @@ steps:
       - Rscript -e "install.packages(c('R6', 'processx', 'callr', 'desc', 'stringi'), repo='https://packagemanager.rstudio.com/cran/2022-08-24', lib = '/usr/local/lib/R/site-library')"
       - Rscript -e "install.packages('lintr', repo='https://packagemanager.rstudio.com/cran/2022-08-24', lib = '/usr/local/lib/R/site-library')"
       - Rscript -e "library(lintr); lint('test_linter.r')"
+
+trigger:
+  event:
+    - push
+    #- pull_request
+  branch:
+    - master
