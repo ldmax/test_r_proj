@@ -10,6 +10,5 @@ steps:
       #- Rscript ./test.r
       #- Rscript -e "install.packages('testthat', repo='https://packagemanager.rstudio.com/cran/2022-08-01')"
       #- Rscript ./test_cases.r
-      - Rscript -e "print(passte0('Available packages: ', .packages(all.available = TRUE)))"
       - Rscript -e "install.packages('lintr', repo='https://packagemanager.rstudio.com/cran/2022-08-24')"
       - Rscript -e "library(lintr); lint('test_linter.r')"
