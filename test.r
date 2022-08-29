@@ -10,4 +10,4 @@ minus <- function(a, b) {
   return(a - b)
 }
 
-print("This is test.r")
+print("This is test.r, hello world")
